@@ -1,5 +1,4 @@
-@extends('layouts.app')
-
+@extends('website.layouts.app')
 @section('content')
 <section class="hero-section">
     <div class="hero-grid"></div>

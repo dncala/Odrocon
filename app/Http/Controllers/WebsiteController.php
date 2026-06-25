@@ -36,7 +36,7 @@ class WebsiteController extends Controller
 
     public function showcase()
     {
-        return view('pages.showcase', [
+        return view('website.pages.showcase', [
             'title' => 'Drone Showcase & Grand Prix',
         ]);
     }
